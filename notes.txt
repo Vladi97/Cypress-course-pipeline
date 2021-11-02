@@ -1,0 +1,17 @@
+npm init (init the project)
+npm install cypress --save-dev (install cypress)
+npm install -g npx
+npx cypress install --force
+node_modules\.bin\cypress open || npx cypress open
+
+require('cypress-xpath') -> Use xpath
+
+
+//commands
+node_modules\.bin\cypress run -> run tests on the console
+npx cypress run --headed -> run tests on web
+npx cypress run --browser chrome -> run tests on chrome
+npx cypress run --spec "cypress\integration\section_2\Asserts.js -> Run specific test
+npx cypress run --spec "cypress\integration\section_1\*" -> Run all tests in a folder
+
+//Using npx cypress run we can create videos
