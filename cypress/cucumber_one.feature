@@ -24,3 +24,4 @@ Feature: Demo of cucumber
             | Vivian   | vivian@example.com | address1 | address2 |
             | Maria    | maria@example.com  | address1 | address2 |
             | Pedro    | pedro@example.com  | address1 | address2 |
+            | Valery   | pedro@example.com  | address1 | address2 |
